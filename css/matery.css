@@ -724,6 +724,23 @@ header .go-back i {
 .dplayer-video {
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 10px 20px -12px rgba(0, 0, 0, .5) !important;
 }
+.dplayer-video2 {
+    position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+    .dplayer-video2 iframe,
+    .dplayer-video2 object,
+    .dplayer-video2 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 #recommend-sections {
     margin-top: -30px;
