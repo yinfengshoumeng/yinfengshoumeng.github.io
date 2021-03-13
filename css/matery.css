@@ -731,6 +731,7 @@ header .go-back i {
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    min-width: 100%;
 }
     .dplayer-video2 iframe,
     .dplayer-video2 object,
