@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>test1</title>
-      <link href="2021/041363532.html"/>
-      <url>2021/041363532.html</url>
+      <title></title>
+      <link href="2021/01131.html"/>
+      <url>2021/01131.html</url>
       
-        <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p><p>–</p><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容2</p><p>–</p><h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p><a href="http://www.www.ww.ww/">www.www.ww.ww</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="我的日常"><a href="#我的日常" class="headerlink" title="我的日常~"></a>我的日常~</h2><p>好无聊呀~</p><p>–</p>]]></content>
       
       
       <categories>
           
-          <category> test1 </category>
+          <category> 日常 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> test </tag>
+            <tag> 日常 </tag>
             
         </tags>
       
@@ -29,38 +29,75 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="2021/031316107.html"/>
-      <url>2021/031316107.html</url>
+      <title>公告</title>
+      <link href="2020/12133.html"/>
+      <url>2020/12133.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="这只是一个普通的公告而已"><a href="#这只是一个普通的公告而已" class="headerlink" title="这只是一个普通的公告而已"></a>这只是一个普通的公告而已</h2><p>但我并不想公告啥~~</p><p>–</p>]]></content>
       
       
       <categories>
           
-          <category> Hello World </category>
+          <category> 公告 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 公告 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>test</title>
-      <link href="2021/031363534.html"/>
-      <url>2021/031363534.html</url>
+      <title>生日快乐</title>
+      <link href="2020/121263534.html"/>
+      <url>2020/121263534.html</url>
       
-        <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p><p>–</p><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容2</p><p>–</p><h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p><a href="http://www.www.ww.ww/">www.www.ww.ww</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="今天我生日"><a href="#今天我生日" class="headerlink" title="今天我生日"></a>今天我生日</h2><p>没有生日蛋糕</p><p>–</p><h2 id="今天我生日-1"><a href="#今天我生日-1" class="headerlink" title="今天我生日"></a>今天我生日</h2><p>除了父母，没有生日祝福</p><p>–</p><h2 id="生快"><a href="#生快" class="headerlink" title="生快"></a>生快</h2>]]></content>
       
       
       <categories>
           
-          <category> test3 </category>
+          <category> 生日 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 生日 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo+gitee搭建博客</title>
+      <link href="2020/042216107.html"/>
+      <url>2020/042216107.html</url>
+      
+        <content type="html"><![CDATA[<p>搭建一个博客或个人小屋并不难，难的是坚持写博客记录，维护小屋.这篇文章是教大家搭建一个个人小屋。</p><h2 id="那么开始把"><a href="#那么开始把" class="headerlink" title="那么开始把"></a>那么开始把</h2><h3 id="Hexo-Gitee-部署自己的个人博客"><a href="#Hexo-Gitee-部署自己的个人博客" class="headerlink" title="Hexo + Gitee 部署自己的个人博客"></a>Hexo + Gitee 部署自己的个人博客</h3><p>目前有一些比较火的一些博客框架： Hexo、jekyll、Solo、Halo 、gohugo、VuePress、wordpress 等 ，这些都是开源的静态博客框架，能快速搭建好一个博客站，<br>用到的知识点不多，需要懂一些前端知识就够了。</p><h4 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h4><ul><li>安装node.js 环境<br>因为Hexo是基于node.js的框架。就像java需要jdk一样。(虽然我已经很久没写过java代码了QwQ)</li><li>node下载地址：<a href="http://nodejs.cn/download/">http://nodejs.cn/download/</a> 。一直点击下一步，傻瓜式安装就可以了。</li><li>关于需要用到的npm，安装好node.js会自带npm。</li><li>检查安装及配置:<pre class=" language-检查安装"><code class="language-检查安装">node -vnpm  -v</code></pre></li><li>npm太慢了，建议安装淘宝镜像<pre class=" language-安装淘宝镜像"><code class="language-安装淘宝镜像">npm install -g cnpm --registry=https://registry.npm.taobao.org</code></pre>这样就能使用cnpm了</li><li>安装 Git<br>学程序的git是必会知识哦，当然，现在有托管工具使用更方便,不用敲代码了QWQ(tortoiseGit:我称其为老乌龟~)<br>这篇写的不错哦：<a href="https://blog.csdn.net/qq_32370913/article/details/105597326">https://blog.csdn.net/qq_32370913/article/details/105597326</a></li><li>Hexo 官网，安装hexo<br><a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a><pre class=" language-安装hexo"><code class="language-安装hexo"># 全局安装npm install hexo-cli -g# 查看hexo版本hexo -v</code></pre><h4 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h4></li><li>创建一个本地博客<br>blog：你的目录名称<pre class=" language-创建站点"><code class="language-创建站点">hexo init blog</code></pre></li><li>进入目录，启动项目 <pre class=" language-start"><code class="language-start"># 进入目录cd blog# 安装hexo依赖npm i # 启动blog项目hexo s</code></pre>npm太慢了，建议使用 cnpm i<br>见证奇迹的时候来了，访问 <a href="http://localhost:4000/">http://localhost:4000/</a> 便可看到 hexo 默认的页面和一篇“Hello World”默认生成的文章（从我敲java的时候就Hello World，就不能换个么QwQ）</li></ul><h4 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h4><p>到此，hexo项目搭建完成</p><ul><li>项目主要目录<pre class=" language-目录"><code class="language-目录">.├── .deploy       # 需要部署的文件├── node_modules  # 项目所有的依赖包和插件├── public        # 生成的静态网页文件├── scaffolds     # 文章模板├── source        # 博客正文和其他源文件等都应该放在这里|   ├── _drafts   # 草稿|   └── _posts    # 文章├── themes        # 主题├── _config.yml   # 全局配置文件└── package.json  # 项目依赖信息</code></pre></li><li>新建一篇自己blog文章<pre class=" language-新建文章"><code class="language-新建文章">hexo new "我的第一篇Hexo blog文章"</code></pre>然后编辑内容，重启一下站点。第一篇文章完成！（Hexo框架文章中的图片只支持外链的形式，我们可以自己在码云或其他地方部署一个自己的图床）<h4 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h4>将项目部署到码云</li><li>首先你得取创建一个gitee账号呀<br><a href="https://gitee.com/">https://gitee.com/</a></li><li>在码云新建一个仓库，注意：仓库名称得和路径一样哦。</li><li>选择开源！</li><li>选择语言 javaScript</li><li>在项目根目录下安装git部署插件<pre class=" language-安装git部署插件"><code class="language-安装git部署插件">cnpm install hexo-deployer-git --save</code></pre></li><li>修改项目配置文件：_config.yml 找到关键字deploy<pre class=" language-修改提交git配置"><code class="language-修改提交git配置">deploy:type: gitrepo: 仓库URL地址branch: master</code></pre></li><li>使用命令 hexo d 将项目部署到 gitee 远程仓库</li><li>刷新gitee的仓库页，你会看到你提交的代码</li><li>开启 Gitee Pages 静态网页托管服务， 点击启动</li><li>之后使用提供的网址便是自己博客项目的网站，当时每次重新上传代码到gitee时，都需要点击Gitee Pages更新按钮重启page服务（麻烦github就不会）</li><li>github和gitee一样哦，不过在国外么……<h4 id="end"><a href="#end" class="headerlink" title="end"></a>end</h4></li><li>如果有不懂的地方 QQ或微信好友搜索：uid1213，说出你不会的地方，我会教你哦。（加好友给备注呀~）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
       
     </entry>
     
