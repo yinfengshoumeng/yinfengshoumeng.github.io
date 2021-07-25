@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo+gitee搭建博客, 竹语">
+    <meta name="keywords" content="Linux文件处理命令, 竹语">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo+gitee搭建博客 | 竹语.</title>
+    <title>Linux文件处理命令 | 竹语.</title>
     <link rel="icon" type="image/png" href="/medias/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -210,7 +210,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo+gitee搭建博客</h1>
+                    <h1 class="description center-align post-title">Linux文件处理命令</h1>
                 </div>
             </div>
         </div>
@@ -351,7 +351,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-22
+                    2020-05-03
                 </div>
                 
 
@@ -372,76 +372,57 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>搭建一个博客或个人小屋并不难，难的是坚持写博客记录，维护小屋.这篇文章是教大家搭建一个个人小屋。</p>
-<h2 id="那么开始把"><a href="#那么开始把" class="headerlink" title="那么开始把"></a>那么开始把</h2><h3 id="Hexo-Gitee-部署自己的个人博客"><a href="#Hexo-Gitee-部署自己的个人博客" class="headerlink" title="Hexo + Gitee 部署自己的个人博客"></a>Hexo + Gitee 部署自己的个人博客</h3><p>目前有一些比较火的一些博客框架： Hexo、jekyll、Solo、Halo 、gohugo、VuePress、wordpress 等 ，这些都是开源的静态博客框架，能快速搭建好一个博客站，<br>用到的知识点不多，需要懂一些前端知识就够了。</p>
-<h4 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h4><ul>
-<li>安装node.js 环境<br>因为Hexo是基于node.js的框架。就像java需要jdk一样。(虽然我已经很久没写过java代码了QwQ)</li>
-<li>node下载地址：<a target="_blank" rel="noopener" href="http://nodejs.cn/download/">http://nodejs.cn/download/</a> 。一直点击下一步，傻瓜式安装就可以了。</li>
-<li>关于需要用到的npm，安装好node.js会自带npm。</li>
-<li>检查安装及配置:<pre class=" language-检查安装"><code class="language-检查安装">node -v
-npm  -v
+                <h1 id="Linux文件处理命令"><a href="#Linux文件处理命令" class="headerlink" title="Linux文件处理命令"></a>Linux文件处理命令</h1><h2 id="命令格式与目录处理命令ls"><a href="#命令格式与目录处理命令ls" class="headerlink" title="命令格式与目录处理命令ls"></a>命令格式与目录处理命令ls</h2><p>命令格式 ：命令 [-选项] [参数]<br>例 ： ls -la /etc<br>说明：1）个别命令使用不遵循此格式<br>2）当有多个选项时，可以写在一起<br>3）简化选项与完整选项-a 等于 —all</p>
+<blockquote>
+<p>命令名称：ls<br>命令英文原意：list<br>命令所在路径：/bin/ls<br>执行权限：所有用户<br>功能描述：显示目录文件<br>语法：ls 选项[-ald] [文件或目录]<br>-a 显示所有文件，包括隐藏文件<br>-l 详细信息显示<br>-d 查看目录属性</p>
+<p>tip：<br>-rw-r—r—<br>● - 文件类型（- 文件 d 目录 l 软链接文件）<br>● rw- r— r—<br>u g o<br>u所有者 g所属组 o其他人<br>r读 w写 x执行</p>
+</blockquote>
+<h2 id="目录处理命令"><a href="#目录处理命令" class="headerlink" title="目录处理命令"></a>目录处理命令</h2><blockquote>
+<p>命令名称：mkdir<br>命令英文原意：make directories<br>命令所在路径：/bin/mkdir<br>执行权限：所有用户<br>语法：mkdir -p [目录名]<br>功能描述：创建新目录-p 递归创建<br>范例： $ mkdir -p /tmp/Japan/boduo<br>$ mkdir /tmp/Japan/longze /tmp/Japan/cangjing</p>
+</blockquote>
+<h4 id="命令名称：cd"><a href="#命令名称：cd" class="headerlink" title="命令名称：cd"></a>命令名称：cd</h4><blockquote>
+<p>命令英文原意：change directory<br>命令所在路径：shell内置<br>命令执行权限：所有用户<br>语法：cd [目录]<br>功能描述：切换目录<br>范例： $ cd /tmp/Japan/boduo 切换到指定目录<br>$ cd .. 回到上一级目录</p>
+</blockquote>
+<h4 id="命令名称：pwd"><a href="#命令名称：pwd" class="headerlink" title="命令名称：pwd"></a>命令名称：pwd</h4><blockquote>
+<p>命令英文原意： print working directory<br>命令所在路径：/bin/pwd<br>执行权限：所有用户<br>语法：pwd<br>功能描述：显示当前目录<br>范例：$ pwd<br>/tmp/Japan</p>
+</blockquote>
+<h4 id="命令名称：rmdir"><a href="#命令名称：rmdir" class="headerlink" title="命令名称：rmdir"></a>命令名称：rmdir</h4><blockquote>
+<p>命令英文原意：remove empty directories<br>命令所在路径：/bin/rmdir<br>执行权限：所有用户<br>语法：rmdir [目录名]<br>功能描述： 删除空目录<br>范例： $ rmdir /tmp/Japan/boduo</p>
+</blockquote>
+<h4 id="命令名称：cp"><a href="#命令名称：cp" class="headerlink" title="命令名称：cp"></a>命令名称：cp</h4><blockquote>
+<p>命令英文原意：copy<br>命令所在路径：/bin/cp<br>执行权限：所有用户<br>语法：cp -rp [原文件或目录] [目标目录]<br>-r 复制目录<br>-p 保留文件属性<br>功能描述：复制文件或目录<br>范例：$ cp -r /tmp/Japan/cangjing /root<br>将目录/tmp/Japan/cangjing复制到目录/root下<br>$ cp -rp /tmp/Japan/boduo /tmp/Japan/longze /root<br>将/tmp/Japan目录下的boduo和longze目录复制到/root下，保持目录属性</p>
+</blockquote>
+<h4 id="命令名称：rm"><a href="#命令名称：rm" class="headerlink" title="命令名称：rm"></a>命令名称：rm</h4><blockquote>
+<p>命令英文原意：remove<br>命令所在路径：/bin/rm<br>执行权限：所有用户<br>语法：rm -rf [文件或目录]<br>-r 删除目录<br>-f 强制执行<br>功能描述：删除文件<br>范例：$ rm /tmp/yum.log<br>删除文件/tmp/yum.log<br>$ rm -rf /tmp/Japan/longze<br>删除目录/tmp/Japan/longze</p>
+</blockquote>
+<h4 id="文件处理命令"><a href="#文件处理命令" class="headerlink" title="文件处理命令"></a>文件处理命令</h4><blockquote>
+<p>命令名称：touch<br>命令所在路径：/bin/touch<br>执行权限：所有用户<br>语法：touch [文件名]<br>功能描述：创建空文件<br>范例： $ touch Japanlovestory.list</p>
+</blockquote>
+<h4 id="命令名称：cat"><a href="#命令名称：cat" class="headerlink" title="命令名称：cat"></a>命令名称：cat</h4><blockquote>
+<p>命令所在路径：/bin/cat<br>执行权限：所有用户<br>语法：cat [文件名]<br>功能描述：显示文件内容<br>-n 显示行号<br>范例： $ cat /etc/issue $ cat -n /etc/services</p>
+</blockquote>
+<h4 id="命令名称：more"><a href="#命令名称：more" class="headerlink" title="命令名称：more"></a>命令名称：more</h4><blockquote>
+<p>命令所在路径：/bin/more<br>执行权限：所有用户<br>语法：more [文件名]<br>(空格) 或f 翻页<br>(Enter) 换行<br>q或Q 退出<br>功能描述：分页显示文件内容<br>范例： $ more /etc/services</p>
+</blockquote>
+<h4 id="命令名称：less"><a href="#命令名称：less" class="headerlink" title="命令名称：less"></a>命令名称：less</h4><blockquote>
+<p>命令所在路径：/usr/bin/less<br>执行权限：所有用户<br>语法：less [文件名]<br>功能描述：分页显示文件内容（可向上翻页）<br>范例： $ less /etc/services<br>tips: 按下 / 后可以搜索 会反显高亮 按q退出（more也可以）</p>
+</blockquote>
+<h4 id="命令名称：head"><a href="#命令名称：head" class="headerlink" title="命令名称：head"></a>命令名称：head</h4><blockquote>
+<pre><code>命令所在路径：/usr/bin/head 
 </code></pre>
-</li>
-<li>npm太慢了，建议安装淘宝镜像<pre class=" language-安装淘宝镜像"><code class="language-安装淘宝镜像">npm install -g cnpm --registry=https://registry.npm.taobao.org
-</code></pre>
-这样就能使用cnpm了</li>
-<li>安装 Git<br>学程序的git是必会知识哦，当然，现在有托管工具使用更方便,不用敲代码了QWQ(tortoiseGit:我称其为老乌龟~)<br>这篇写的不错哦：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_32370913/article/details/105597326">https://blog.csdn.net/qq_32370913/article/details/105597326</a></li>
-<li>Hexo 官网，安装hexo<br><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a><pre class=" language-安装hexo"><code class="language-安装hexo"># 全局安装
-npm install hexo-cli -g
-# 查看hexo版本
-hexo -v
-</code></pre>
-<h4 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h4></li>
-<li>创建一个本地博客<br>blog：你的目录名称<pre class=" language-创建站点"><code class="language-创建站点">hexo init blog
-</code></pre>
-</li>
-<li>进入目录，启动项目 <pre class=" language-start"><code class="language-start"># 进入目录
-cd blog
-# 安装hexo依赖
-npm i 
-# 启动blog项目
-hexo s
-</code></pre>
-npm太慢了，建议使用 cnpm i<br>见证奇迹的时候来了，访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 便可看到 hexo 默认的页面和一篇“Hello World”默认生成的文章（从我敲java的时候就Hello World，就不能换个么QwQ）</li>
-</ul>
-<h4 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h4><p>到此，hexo项目搭建完成</p>
-<ul>
-<li>项目主要目录<pre class=" language-目录"><code class="language-目录">.
-├── .deploy       # 需要部署的文件
-├── node_modules  # 项目所有的依赖包和插件
-├── public        # 生成的静态网页文件
-├── scaffolds     # 文章模板
-├── source        # 博客正文和其他源文件等都应该放在这里
-|   ├── _drafts   # 草稿
-|   └── _posts    # 文章
-├── themes        # 主题
-├── _config.yml   # 全局配置文件
-└── package.json  # 项目依赖信息
-</code></pre>
-</li>
-<li>新建一篇自己blog文章<pre class=" language-新建文章"><code class="language-新建文章">hexo new "我的第一篇Hexo blog文章"
-</code></pre>
-然后编辑内容，重启一下站点。第一篇文章完成！（Hexo框架文章中的图片只支持外链的形式，我们可以自己在码云或其他地方部署一个自己的图床）<h4 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h4>将项目部署到码云</li>
-<li>首先你得取创建一个gitee账号呀<br><a target="_blank" rel="noopener" href="https://gitee.com/">https://gitee.com/</a></li>
-<li>在码云新建一个仓库，注意：仓库名称得和路径一样哦。</li>
-<li>选择开源！</li>
-<li>选择语言 javaScript</li>
-<li>在项目根目录下安装git部署插件<pre class=" language-安装git部署插件"><code class="language-安装git部署插件">cnpm install hexo-deployer-git --save
-</code></pre>
-</li>
-<li>修改项目配置文件：_config.yml 找到关键字deploy<pre class=" language-修改提交git配置"><code class="language-修改提交git配置">deploy:
-type: git
-repo: 仓库URL地址
-branch: master
-</code></pre>
-</li>
-<li>使用命令 hexo d 将项目部署到 gitee 远程仓库</li>
-<li>刷新gitee的仓库页，你会看到你提交的代码</li>
-<li>开启 Gitee Pages 静态网页托管服务， 点击启动</li>
-<li>之后使用提供的网址便是自己博客项目的网站，当时每次重新上传代码到gitee时，都需要点击Gitee Pages更新按钮重启page服务（麻烦github就不会）</li>
-<li>github和gitee一样哦，不过在国外么……<h4 id="end"><a href="#end" class="headerlink" title="end"></a>end</h4></li>
-<li>如果有不懂的地方 QQ或微信好友搜索：uid1213，说出你不会的地方，我会教你哦。（加好友给备注呀~）</li>
-</ul>
+<p>执行权限：所有用户<br>语法：head [文件名]<br>功能描述：显示文件前面几行<br>-n 指定行数<br>范例： $ head -n 20 /etc/services</p>
+</blockquote>
+<h4 id="命令名称：tail"><a href="#命令名称：tail" class="headerlink" title="命令名称：tail"></a>命令名称：tail</h4><blockquote>
+<p>命令所在路径：/usr/bin/tail<br>执行权限：所有用户<br>语法：tail [文件名]<br>功能描述：显示文件后面几行<br>-n 指定行数<br>-f 动态显示文件末尾内容<br>范例： $ tail -n 18 /etc/services</p>
+</blockquote>
+<h2 id="链接命令"><a href="#链接命令" class="headerlink" title="链接命令"></a>链接命令</h2><h4 id="命令名称：ln"><a href="#命令名称：ln" class="headerlink" title="命令名称：ln"></a>命令名称：ln</h4><blockquote>
+<p>命令英文原意：link<br>命令所在路径：/bin/ln<br>执行权限：所有用户<br>语法：ln -s [原文件] [目标文件]<br>-s 创建软链接<br>功能描述：生成链接文件</p>
+</blockquote>
+<p>范例：<br>$ ln -s /etc/issue /tmp/issue.soft<br>创建文件/etc/issue的软链接/tmp/issue.soft<br>$ ln /etc/issue /tmp/issue.hard<br>创建文件/etc/issue的硬链接/tmp/issue.hard</p>
+<blockquote>
+<h4 id="软链接特征："><a href="#软链接特征：" class="headerlink" title="软链接特征："></a>软链接特征：</h4><p>类似Windows快捷方式<br>1、lrwxrwxrwx l 软链接<br>软链接文件权限都为rwxrwxrwx<br>2、文件大小-只是符号链接<br>3、/tmp/issue.soft -&gt; /etc/issue 箭头指向原文件</p>
+<h4 id="硬链接特征："><a href="#硬链接特征：" class="headerlink" title="硬链接特征："></a>硬链接特征：</h4><p>1、拷贝cp -p + 同步更新<br>echo “this is a test” &gt;&gt; /etc/motd<br>2、可通过i节点识别<br>3、不能跨分区<br>4、不能针对目录使用</p>
+</blockquote>
 
                 
             </div>
@@ -468,7 +449,7 @@ branch: master
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://uid1213.gitee.io/2020/042216107.html">https://uid1213.gitee.io/2020/042216107.html</a>
+                    <a href="https://uid1213.gitee.io/2020/05035.html">https://uid1213.gitee.io/2020/05035.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -681,13 +662,13 @@ branch: master
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/121263534.html">
+                <a href="/2020/05236.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="生日快乐">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Redis详解">
                         
-                        <span class="card-title">生日快乐</span>
+                        <span class="card-title">Redis详解</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -698,14 +679,14 @@ branch: master
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-12
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-23
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%94%9F%E6%97%A5/" class="post-category">
-                                    生日
+                            <a href="/categories/%E5%88%86%E4%BA%AB%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    分享技术
                                 </a>
                             
                             
@@ -715,8 +696,8 @@ branch: master
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%94%9F%E6%97%A5/">
-                        <span class="chip bg-color">生日</span>
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
                     </a>
                     
                 </div>
@@ -727,16 +708,16 @@ branch: master
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/042216107.html">
+                <a href="/2020/04284.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="hexo+gitee搭建博客">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Markdown">
                         
-                        <span class="card-title">hexo+gitee搭建博客</span>
+                        <span class="card-title">Markdown</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -747,7 +728,7 @@ branch: master
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-28
                             </span>
                         <span class="publish-author">
                             
@@ -761,7 +742,6 @@ branch: master
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
